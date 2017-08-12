@@ -6,8 +6,6 @@ import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.List;
 
 import br.com.caelum.jdbc.ConnectionFactory;
@@ -53,7 +51,7 @@ public class ContatoDao {
 			
 	}
 	
-	public List<Contato> getLista() {
+	public List<Contato> listar() {
 		
 		
 		String sql = "select * from contatos";
@@ -67,25 +65,8 @@ public class ContatoDao {
 			
 			List<Contato> contatos = new ArrayList<>();
 			
-			while(rs.next()) {
-				
-				// Objeto contato
-				Contato contato = new Contato();
-				contato.setId(rs.getInt("id"));
-				contato.setNome("nome");
-				contato.setEmail("email");
-				contato.setEndereço("endereco");
-				
-				// montando a data com Calendar
-				Calendar data = Calendar.getInstance();
-				data.setTime(rs.getDate("dataNascimento"));
-				contato.setDataNascimento(data);
-				
-				contatos.add(contato);
-				
-			}
-			
-			rs.close();
+			// executa
+			stmt.execute();
 			stmt.close();
 			
 			return contatos;

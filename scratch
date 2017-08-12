@@ -10,7 +10,12 @@ Exercicios 2.6 pg 8 ~ 12
 - Add mysql-connector.jar
 - Connect to mysql database fj21
 
-
+Exercicios 2.11 pg 19 ~ 22
+- ConnectionFactory
+- Contato
+- ContatoDao
+- TestaInsere 
+- Checa no Banco de Dados
 
 
 
