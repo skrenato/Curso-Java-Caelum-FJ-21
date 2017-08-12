@@ -11,7 +11,6 @@ public class TestaConexao {
 		
 		Connection connection = new ConnectionFactory().getConnection();
 		
-		// imprime resultado
 		System.out.println("Conexao aberta!");
 		
 		connection.close(); 
