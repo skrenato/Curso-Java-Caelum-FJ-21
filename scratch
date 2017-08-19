@@ -49,3 +49,7 @@ Exercicio 5.14 pg66
 - declarando redirecionamento no web.xml
 
 
+- mudança do metodo service para doPost, para garantir sigilo dos dados do formulário html
+
+
+
