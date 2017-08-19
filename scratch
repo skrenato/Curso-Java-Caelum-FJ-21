@@ -31,3 +31,21 @@ Exercicio 5.5 pg53
 - Novo projeto;
 - Primeira Servlet;
 - httpServlet - Request & Response;
+
+Exercicio 5.11 pg61
+- Servlet para gravar novo contato no banco de dados.
+- HTML
+- AdicionaContatoServlet
+  - Recebe dados do form
+  - Monta Contato
+  - Submete Contato para ContatoDao
+- retorno de HTML
+
+Exercicio 5.11 pg61
+- adicionado botao voltar para a pagina de adicionar contato
+
+Exercicio 5.14 pg66
+- exceções e códigos http
+- declarando redirecionamento no web.xml
+
+

@@ -63,9 +63,8 @@ public class AdicionaContatoServlet extends HttpServlet {
 		out.println("<html>");
 		out.println("<body>");
 		out.println("Contato " + contato.getNome() + " adicionado com sucesso <br />");
-		// Botao Voltar para tela de adicionar contato
-		//out.println("<form action='adiciona-contato.html'>");
-		//out.println("<input type='submit' value='Voltar'></form>");
+		out.println("<form action='adicionaContato'>");
+		out.println("<input type='submit' value='Gravar'></form>");
 		out.println("</body>");
 		out.println("</html>");
 		
