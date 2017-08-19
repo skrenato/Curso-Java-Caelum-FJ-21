@@ -37,7 +37,7 @@ public class ContatoDao {
 			// seta os valores
 			stmt.setString(1, contato.getNome());
 			stmt.setString(2, contato.getEmail());
-			stmt.setString(3, contato.getEndereço());
+			stmt.setString(3, contato.getEndereco());
 			stmt.setDate(4, new Date(
 					contato.getDataNascimento().getTimeInMillis()));
 			
@@ -72,9 +72,9 @@ public class ContatoDao {
 				// Objeto contato
 				Contato contato = new Contato();
 				contato.setId(rs.getInt("id"));
-				contato.setNome("nome");
-				contato.setEmail("email");
-				contato.setEndereço("endereco");
+				contato.setNome(rs.getString("nome"));
+				contato.setEmail(rs.getString("email"));
+				contato.setEndereco(rs.getString("endereco"));
 				
 				// montando a data com Calendar
 				Calendar data = Calendar.getInstance();
