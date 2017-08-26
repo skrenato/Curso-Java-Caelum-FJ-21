@@ -15,3 +15,9 @@
 0:0:0:0:0:0:0:1 - - [26/Aug/2017:12:24:16 -0300] "POST /fj21-agenda/adicionaContato HTTP/1.1" 200 82
 0:0:0:0:0:0:0:1 - - [26/Aug/2017:12:24:16 -0300] "POST /fj21-agenda/adicionaContato HTTP/1.1" 200 82
 0:0:0:0:0:0:0:1 - - [26/Aug/2017:12:24:22 -0300] "GET /fj21-agenda/lista-contatos.jsp HTTP/1.1" 200 3025
+127.0.0.1 - - [26/Aug/2017:12:31:26 -0300] "GET / HTTP/1.1" 200 11444
+0:0:0:0:0:0:0:1 - - [26/Aug/2017:12:49:26 -0300] "GET /fj21-agenda/lista-contatos.jsp HTTP/1.1" 200 3169
+0:0:0:0:0:0:0:1 - - [26/Aug/2017:12:49:26 -0300] "GET /fj21-agenda/imagens/caelum.png HTTP/1.1" 200 3211
+0:0:0:0:0:0:0:1 - - [26/Aug/2017:12:49:27 -0300] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [26/Aug/2017:12:49:53 -0300] "GET /fj21-agenda/lista-contatos.jsp HTTP/1.1" 200 3168
+0:0:0:0:0:0:0:1 - - [26/Aug/2017:12:49:53 -0300] "GET /favicon.ico HTTP/1.1" 200 21630
