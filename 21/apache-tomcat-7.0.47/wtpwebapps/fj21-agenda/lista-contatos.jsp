@@ -25,7 +25,7 @@
 				<c:if test="${ empty contato.email }">
 					<td>E-mail não informado</td>				
 				</c:if>
-				<c:if test="${not empty contato.email}">
+				<c:if test="${ not empty contato.email }">
 					<td><a href="mailto:${ contato.email }" > ${ contato.email }</a></td>
 				</c:if>
 				<td>${ contato.endereco }</td>
