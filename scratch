@@ -73,3 +73,10 @@ Exercicio 7.15 pg89-90 - Formatando data de nascimento.
 - importando JSTL fmt
 - - http://java.sun.com.jsp/jstl/fmt; prefixo = fmt
 
+Exercicio 8.4 pg95~98 - Criando e usando uma nova tag para calendario
+- uso de js + css
+- tags
+
+Exercicio 9.3 - RequestDispatcher
+- encaminhando a request + response do servlet p/ o jsp
+

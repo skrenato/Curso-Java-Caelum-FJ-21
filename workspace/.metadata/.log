@@ -320,3 +320,15 @@ org.eclipse.jface.text.BadLocationException
 
 !ENTRY org.eclipse.jface.text 2 0 2017-08-26 15:16:03.220
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-26 16:06:32.912
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-26 16:06:32.913
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-26 16:07:01.143
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-26 16:07:01.143
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'

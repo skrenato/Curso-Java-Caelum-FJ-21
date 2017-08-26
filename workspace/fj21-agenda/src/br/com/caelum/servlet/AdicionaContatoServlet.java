@@ -7,6 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -48,7 +49,6 @@ public class AdicionaContatoServlet extends HttpServlet {
 		}
 
 		// monta um objeto contato
-		
 		Contato contato = new Contato();
 		contato.setNome(nome);
 		contato.setEndereco(endereco);
@@ -60,14 +60,17 @@ public class AdicionaContatoServlet extends HttpServlet {
 		dao.adiciona(contato);
 		
 		// imprime o nome do contato que foi adicionado
-		out.println("<html>");
-		out.println("<body>");
-		out.println("Contato " + contato.getNome() + " adicionado com sucesso <br />");
+		//out.println("<html>");
+		//out.println("<body>");
+		//out.println("Contato " + contato.getNome() + " adicionado com sucesso via servlet <br />");
 		// Botao Voltar para tela de adicionar contato
-		//out.println("<form action='adiciona-contato.html'>");
+		//out.println("<form action='adiciona-contato.jsp'>");
 		//out.println("<input type='submit' value='Voltar'></form>");
-		out.println("</body>");
-		out.println("</html>");
+		//out.println("</body>");
+		//out.println("</html>");
+		
+		RequestDispatcher rd = request.getRequestDispatcher("/contato-adicionado.jsp");
+		rd.forward(request, response);
 		
 	}
 	

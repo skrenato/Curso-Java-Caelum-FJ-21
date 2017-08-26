@@ -61,3 +61,12 @@
 0:0:0:0:0:0:0:1 - - [26/Aug/2017:15:34:48 -0300] "GET /fj21-agenda/js/jqury.js HTTP/1.1" 404 109
 0:0:0:0:0:0:0:1 - - [26/Aug/2017:15:36:57 -0300] "GET /fj21-agenda/adiciona-contato.jsp HTTP/1.1" 200 787
 0:0:0:0:0:0:0:1 - - [26/Aug/2017:15:37:10 -0300] "GET /fj21-agenda/adiciona-contato.jsp HTTP/1.1" 200 787
+0:0:0:0:0:0:0:1 - - [26/Aug/2017:16:08:58 -0300] "GET /fj21-agenda/adicionaContato HTTP/1.1" 405 1065
+0:0:0:0:0:0:0:1 - - [26/Aug/2017:16:17:14 -0300] "GET /fj21-agenda/adiciona-contato.jsp HTTP/1.1" 200 787
+0:0:0:0:0:0:0:1 - - [26/Aug/2017:16:17:30 -0300] "POST /fj21-agenda/adicionaContato HTTP/1.1" 200 23
+0:0:0:0:0:0:0:1 - - [26/Aug/2017:16:18:19 -0300] "POST /fj21-agenda/adicionaContato HTTP/1.1" 200 23
+0:0:0:0:0:0:0:1 - - [26/Aug/2017:16:18:39 -0300] "GET /fj21-agenda/adiciona-contato.jsp HTTP/1.1" 200 787
+0:0:0:0:0:0:0:1 - - [26/Aug/2017:16:19:25 -0300] "POST /fj21-agenda/adicionaContato HTTP/1.1" 200 287
+0:0:0:0:0:0:0:1 - - [26/Aug/2017:16:22:18 -0300] "GET /fj21-agenda/adiciona-contato.jsp HTTP/1.1" 200 787
+0:0:0:0:0:0:0:1 - - [26/Aug/2017:16:22:30 -0300] "POST /fj21-agenda/adicionaContato HTTP/1.1" 200 185
+0:0:0:0:0:0:0:1 - - [26/Aug/2017:16:22:33 -0300] "GET /fj21-agenda/adiciona-contato.html? HTTP/1.1" 404 109
