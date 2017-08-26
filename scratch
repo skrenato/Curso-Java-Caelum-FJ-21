@@ -69,3 +69,7 @@ Exercicio 7.11 pg84~86 - Lista de Contatos com condicionais
 Exercicio 7.13 pg87-88 - Cabeçalhos e rodapes
 - carregando arquivos jsp na sua propria jsp.
 
+Exercicio 7.15 pg89-90 - Formatando data de nascimento.
+- importando JSTL fmt
+- - http://java.sun.com.jsp/jstl/fmt; prefixo = fmt
+
