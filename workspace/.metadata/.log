@@ -508,3 +508,9 @@ Java Model Exception: Java Model Status [[Working copy] __2F_fj21_2D_agenda_2F_W
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 !SUBENTRY 1 org.eclipse.jdt.core 4 969 2017-09-02 09:31:21.944
 !MESSAGE [Working copy] __2F_fj21_2D_agenda_2F_WebContent_2F_rodape_2E_jsp.java [in <default> [in src [in fj21-agenda]]] does not exist
+
+!ENTRY org.eclipse.jface.text 2 0 2017-09-02 10:45:04.425
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-09-02 10:45:04.426
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'

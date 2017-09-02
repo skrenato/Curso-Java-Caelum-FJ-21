@@ -22,7 +22,7 @@ public class RemoveContatoLogic implements Logica {
 		
 		System.out.println("Excluindo contato... ");
 		
-		return "mvc?logica=ListaContatosLogic";
+		return "lista-contatos.jsp";
 	}
 
 }

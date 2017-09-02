@@ -9,8 +9,8 @@
 	<c:import url="cabecalho.jsp" />
 	
 	<!-- cria contatoDAO -->
-	<!-- <jsp:useBean id="dao" class="br.com.caelum.agenda.dao.ContatoDao" /> -->
-		
+	<jsp:useBean id="dao" class="br.com.caelum.agenda.dao.ContatoDao" />
+	
 	<table>
 		<tr>
 			<td>ID</td>
@@ -19,7 +19,7 @@
 			<td>Data de Nascimento</td>
 		</tr>
 		<!-- percorre contatos montando linhas na tabela -->
-		<c:forEach var="contato" items="${ listaContatos }">
+		<c:forEach var="contato" items="${ dao.lista }">
 			<tr>
 				<td>${ contato.nome }</td>
 				<c:if test="${ empty contato.email }">

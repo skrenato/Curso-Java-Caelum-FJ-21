@@ -14,3 +14,8 @@
 0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:53:49 -0300] "GET /fj21-agenda/mvc?logica=RemoveContatoLogic&id=18 HTTP/1.1" 200 3246
 0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:57:38 -0300] "GET /fj21-agenda/mvc?logica=RemoveContatoLogic&id=18 HTTP/1.1" 200 3246
 0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:57:38 -0300] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:10:46:40 -0300] "GET /fj21-agenda/mvc?logica=ListaContatoLogic HTTP/1.1" 500 95
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:10:46:57 -0300] "GET /fj21-agenda/mvc?logica=ListaContatosLogic HTTP/1.1" 200 3256
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:10:47:11 -0300] "GET /fj21-agenda/mvc?logica=RemoveContatoLogic&id=7 HTTP/1.1" 200 2960
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:10:47:18 -0300] "GET /fj21-agenda/mvc?logica=RemoveContatoLogic&id=8 HTTP/1.1" 200 2662
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:10:47:40 -0300] "GET /fj21-agenda/mvc?logica=RemoveContatoLogic&id=12 HTTP/1.1" 200 2325

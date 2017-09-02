@@ -19,7 +19,7 @@
 			<td>Data de Nascimento</td>
 		</tr>
 		<!-- percorre contatos montando linhas na tabela -->
-		<c:forEach var="contato" items="${ listaContatos }">
+		<c:forEach var="contato" items="${ dao.lista }">
 			<tr>
 				<td>${ contato.nome }</td>
 				<c:if test="${ empty contato.email }">
