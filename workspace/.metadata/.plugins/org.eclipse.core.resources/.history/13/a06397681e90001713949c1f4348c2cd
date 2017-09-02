@@ -24,7 +24,7 @@ public class TarefasController {
 		
 		if (result.hasFieldErrors("descricao")) {
 			
-			return "tarefa/formulario";
+			return "tarefa/fornulario";
 			
 		}
 		

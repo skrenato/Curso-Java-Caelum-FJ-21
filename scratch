@@ -109,3 +109,9 @@ Exercicio 11.9 - Criando novas tarefas
 - usando a inversão de controle + injeção de dependencias.
 - usando recurso do spring para trazer um objeto do submit do formulário
 
+Exercicio 11.12 - Validando Tarefas
+- processo de binding do spring
+- integração do spring + bean validation do J2EE
+- usando taglib do spring + form:erros.
+- trazendo a descrição do erro baseado na annotattion da classe tarefa
+- validando os campos; tratamento de erros.
