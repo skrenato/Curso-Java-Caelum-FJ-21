@@ -23,13 +23,24 @@
 			<tr>
 				<td>${ contato.nome }</td>
 				<c:if test="${ empty contato.email }">
-					<td>E-mail não informado</td>				
+					<td>
+						E-mail não informado
+					</td>				
 				</c:if>
 				<c:if test="${ not empty contato.email }">
-					<td><a href="mailto:${ contato.email }" > ${ contato.email }</a></td>
+					<td>
+						<a href="mailto:${ contato.email }" > ${ contato.email }</a>
+					</td>
 				</c:if>
-				<td>${ contato.endereco }</td>
-				<td><fmt:formatDate value="${ contato.dataNascimento.time }" pattern="dd/MM/yyyy" /></td>
+				<td>
+					${ contato.endereco }
+				</td>
+				<td>
+					<fmt:formatDate value="${ contato.dataNascimento.time }" pattern="dd/MM/yyyy" />
+				</td>
+				<td>
+					<a href="mvc?logica=RemoveContatoLogic&id=${contato.id}">Remover</a>
+				</td>
 			</tr>
 		</c:forEach>
 	</table>

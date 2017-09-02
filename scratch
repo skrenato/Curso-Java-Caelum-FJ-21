@@ -79,4 +79,16 @@ Exercicio 8.4 pg95~98 - Criando e usando uma nova tag para calendario
 
 Exercicio 9.3 - RequestDispatcher
 - encaminhando a request + response do servlet p/ o jsp
+- melhorias na classe AdicionaContatoServlet
+
+Exercicio 9.6 - Criando logica e servlet de controle
+- modelo MVC
+- uso de interface
+- classe como parametro
+
+Exercicio 9.7 - Logica para remover contatos
+- ajuste na pagina lista-contatos.jsp
+- chamando o dao para remover um contato
+
+
 

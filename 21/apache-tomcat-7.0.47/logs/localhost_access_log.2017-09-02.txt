@@ -1,0 +1,16 @@
+127.0.0.1 - - [02/Sep/2017:09:40:45 -0300] "GET / HTTP/1.1" 200 11444
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:41:40 -0300] "GET /fj21-agenda/mvc?logica=PrimeiraLogica HTTP/1.1" 200 186
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:53:15 -0300] "GET /fj21-agenda/lista-contatos.jsp HTTP/1.1" 200 5012
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:53:27 -0300] "GET /fj21-agenda/lista-contatos.jsp HTTP/1.1" 200 5012
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:53:27 -0300] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:53:29 -0300] "GET /fj21-agenda/mvc?logica=RemoveContatoLogic&id=16 HTTP/1.1" 200 4728
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:53:33 -0300] "GET /fj21-agenda/mvc?logica=RemoveContatoLogic&id=17 HTTP/1.1" 200 4444
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:53:34 -0300] "GET /fj21-agenda/mvc?logica=RemoveContatoLogic&id=17 HTTP/1.1" 200 4444
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:53:34 -0300] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:53:38 -0300] "GET /fj21-agenda/mvc?logica=RemoveContatoLogic&id=10 HTTP/1.1" 200 4130
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:53:43 -0300] "GET /fj21-agenda/mvc?logica=RemoveContatoLogic&id=11 HTTP/1.1" 200 3816
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:53:43 -0300] "GET /fj21-agenda/mvc?logica=RemoveContatoLogic&id=11 HTTP/1.1" 200 3816
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:53:46 -0300] "GET /fj21-agenda/mvc?logica=RemoveContatoLogic&id=14 HTTP/1.1" 200 3520
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:53:49 -0300] "GET /fj21-agenda/mvc?logica=RemoveContatoLogic&id=18 HTTP/1.1" 200 3246
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:57:38 -0300] "GET /fj21-agenda/mvc?logica=RemoveContatoLogic&id=18 HTTP/1.1" 200 3246
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:09:57:38 -0300] "GET /favicon.ico HTTP/1.1" 200 21630
