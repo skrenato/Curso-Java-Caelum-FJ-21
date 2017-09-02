@@ -95,10 +95,15 @@ Exercicio 9.9 - Logica para Listar Contatos
 - ajuste no lista-contatos.jsp para remover metodo antigo e receber a lista do ListaContatosLogic
 - ajuste no RemoveContatoLogic p/ comportar item acima
 
-Exercicio 10.2 - Usaado filtro para medir tempo de uma execução
+Exercicio 10.2 - Usando filtro para medir tempo de uma execução
 
 Exercicio 10.6 - Filtros
-
 - Usando o filtro para encaminhar a conexao do banco de dados via objeto request
 - Exemplos aplivados no Remover e Adicionar Contato.
+
+Exercicio 11.7 - Configurando o Spring MVC e testando a configuração
+- novo projeto: fj21-tarefas
+- olaMundoSpring
+
+
 
