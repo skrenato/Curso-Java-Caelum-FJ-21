@@ -105,5 +105,7 @@ Exercicio 11.7 - Configurando o Spring MVC e testando a configuração
 - novo projeto: fj21-tarefas
 - olaMundoSpring
 
-
+Exercicio 11.9 - Criando novas tarefas
+- usando a inversão de controle + injeção de dependencias.
+- usando recurso do spring para trazer um objeto do submit do formulário
 
