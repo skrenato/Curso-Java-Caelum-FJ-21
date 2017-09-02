@@ -20,5 +20,7 @@ public class ListaContatosLogic implements Logica {
 		
 		return "lista-contatos.jsp";
 	}
+
+	
 	
 }

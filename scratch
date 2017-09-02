@@ -90,5 +90,12 @@ Exercicio 9.7 - Logica para remover contatos
 - ajuste na pagina lista-contatos.jsp
 - chamando o dao para remover um contato
 
+Exercicio 9.9 - Logica para Listar Contatos
+- agora, a lista é pendurada no request e retorna ao cliente
+- ajuste no lista-contatos.jsp para remover metodo antigo e receber a lista do ListaContatosLogic
+- ajuste no RemoveContatoLogic p/ comportar item acima
+
+Exercicio 10.2 - Usnado filtro para medir tempo de uma execução
+
 
 
