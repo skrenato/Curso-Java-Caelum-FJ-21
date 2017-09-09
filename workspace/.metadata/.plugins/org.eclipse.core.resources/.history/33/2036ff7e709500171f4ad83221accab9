@@ -9,13 +9,11 @@
 	<script type="text/javascript">
 		function finalizaAgora(id) {
 			
-			$.post("finalizaTarefa", {'id' : id}, function () {
-				
+			$.post("finalizaTarefa", {'id' : id}), function () {
 				// seleciona elemento html atravez da ID e alterando HTML
-				
 				$("#tarefa_"+id).html("Finalizado");
 				
-			});
+			}
 			
 		}
 	</script>

@@ -66,3 +66,16 @@
 0:0:0:0:0:0:0:1 - - [09/Sep/2017:10:47:18 -0300] "GET /fj21-tarefas/mostraTarefa?id=19 HTTP/1.1" 200 658
 0:0:0:0:0:0:0:1 - - [09/Sep/2017:10:47:27 -0300] "POST /fj21-tarefas/alteraTarefa HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [09/Sep/2017:10:47:27 -0300] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 200 2406
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:12:04:10 -0300] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 200 2999
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:12:04:13 -0300] "GET /fj21-tarefas/resources/js/jquery.js HTTP/1.1" 200 57254
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:12:04:13 -0300] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:12:05:26 -0300] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 200 2991
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:12:05:26 -0300] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:12:05:28 -0300] "POST /fj21-tarefas/finalizaTarefa HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:12:07:05 -0300] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 200 2882
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:12:07:05 -0300] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:12:07:08 -0300] "POST /fj21-tarefas/finalizaTarefa HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:12:07:12 -0300] "GET /fj21-tarefas/novaTarefa HTTP/1.1" 200 351
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:12:07:19 -0300] "POST /fj21-tarefas/adicionaTarefa HTTP/1.1" 200 170
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:12:07:25 -0300] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 200 3163
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:12:07:28 -0300] "POST /fj21-tarefas/finalizaTarefa HTTP/1.1" 200 -

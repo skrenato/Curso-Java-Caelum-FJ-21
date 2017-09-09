@@ -9,13 +9,11 @@
 	<script type="text/javascript">
 		function finalizaAgora(id) {
 			
-			$.post("finalizaTarefa", {'id' : id}, function () {
-				
+			$.post("finalizaTarefa", {'id' : id}), function () {
 				// seleciona elemento html atravez da ID e alterando HTML
-				
 				$("#tarefa_"+id).html("Finalizado");
 				
-			});
+			}
 			
 		}
 	</script>
@@ -41,7 +39,7 @@
 				<c:if test="${ tarefa.finalizado eq false }">
 					<!-- <td>Não finalizado</td> -->
 					<td id="tarefa_${ tarefa.id }">
-						<a href="#" onclick="finalizaAgora(${ tarefa.id })">
+						<a href="#" onclick="finalizaAgora(${ tarefa.id })"></a>
 						Finaliza agora!
 						</a>
 					</td>
