@@ -134,6 +134,8 @@ Exercicios 12.6 + 12.8 - Implementando Login na Aplicação / Interceptando as R
 - Problemática de checar autenticação em todas as funções;
 - Solução: Interceptações c/ HandlerInterceptorAdapter
 
-
+Exercicio 12.9 - Logout
+- implementando o logout.
+- session.invalidate();
 
 

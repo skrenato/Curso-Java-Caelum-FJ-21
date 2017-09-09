@@ -23,7 +23,8 @@
 <body>
 	
 	<a href="novaTarefa">Criar nova tarefa</a>
-	
+	<br /><br />
+	<a href="logout">Sair</a>
 	<br /><br />
 	
 	<table>

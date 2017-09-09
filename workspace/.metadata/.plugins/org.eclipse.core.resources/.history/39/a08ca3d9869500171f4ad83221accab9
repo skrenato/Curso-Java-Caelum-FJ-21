@@ -38,7 +38,7 @@ public class LoginController {
 		
 		session.invalidate();
 		
-		return "redirect:loginForm";
+		return "redirect.loginForm";
 		
 	}
 	
