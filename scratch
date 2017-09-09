@@ -129,4 +129,11 @@ Exercicio 11.21 - Introducao a Ajax
 - Usando o Ajax para dados na lista sem necessidade recarregar
 - Um pouco de javascript + jquery
 
+Exercicios 12.6 + 12.8 - Implementando Login na Aplicação / Interceptando as Requisições
+- Login simples c/ HttpSession + usuario
+- Problemática de checar autenticação em todas as funções;
+- Solução: Interceptações c/ HandlerInterceptorAdapter
+
+
+
 

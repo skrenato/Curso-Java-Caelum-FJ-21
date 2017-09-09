@@ -79,3 +79,16 @@
 0:0:0:0:0:0:0:1 - - [09/Sep/2017:12:07:19 -0300] "POST /fj21-tarefas/adicionaTarefa HTTP/1.1" 200 170
 0:0:0:0:0:0:0:1 - - [09/Sep/2017:12:07:25 -0300] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 200 3163
 0:0:0:0:0:0:0:1 - - [09/Sep/2017:12:07:28 -0300] "POST /fj21-tarefas/finalizaTarefa HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:13:49:34 -0300] "GET /fj21-tarefas/loginForm HTTP/1.1" 404 995
+127.0.0.1 - - [09/Sep/2017:13:53:44 -0300] "GET / HTTP/1.1" 200 11444
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:13:54:24 -0300] "GET /fj21-tarefas/loginForm HTTP/1.1" 200 381
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:13:54:24 -0300] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:13:55:41 -0300] "POST /fj21-tarefas/efetuaLogin HTTP/1.1" 200 276
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:13:55:45 -0300] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 200 3043
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:14:36:11 -0300] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 200 3043
+127.0.0.1 - - [09/Sep/2017:14:37:34 -0300] "GET / HTTP/1.1" 200 11444
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:14:37:43 -0300] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:14:37:43 -0300] "GET /fj21-tarefas/loginForm HTTP/1.1" 200 381
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:14:38:34 -0300] "POST /fj21-tarefas/efetuaLogin HTTP/1.1" 200 276
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:14:38:36 -0300] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 200 3043
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:14:38:36 -0300] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 200 3043
