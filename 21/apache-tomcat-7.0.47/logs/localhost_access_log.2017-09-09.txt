@@ -1,0 +1,8 @@
+127.0.0.1 - - [09/Sep/2017:09:33:37 -0300] "GET / HTTP/1.1" 200 11444
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:09:34:24 -0300] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 200 1397
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:09:37:19 -0300] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 200 1397
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:09:37:24 -0300] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 200 1397
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:09:46:41 -0300] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 200 1410
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:09:46:42 -0300] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:09:46:43 -0300] "GET /fj21-tarefas/novaTarefa HTTP/1.1" 200 351
+0:0:0:0:0:0:0:1 - - [09/Sep/2017:09:46:45 -0300] "POST /fj21-tarefas/adicionaTarefa HTTP/1.1" 200 423
