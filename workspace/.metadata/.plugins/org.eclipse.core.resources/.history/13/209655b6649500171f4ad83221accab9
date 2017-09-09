@@ -61,7 +61,7 @@ public class TarefasController {
 		JdbcTarefaDao dao = new JdbcTarefaDao();
 		model.addAttribute("tarefa", dao.buscaPorId(id));
 		
-		return "tarefa/mostra";
+		return "tarefa/mostraTarefa";
 	}
 	
 	@RequestMapping("alteraTarefa")

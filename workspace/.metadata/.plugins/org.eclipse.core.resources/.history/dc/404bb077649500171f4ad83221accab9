@@ -61,16 +61,7 @@ public class TarefasController {
 		JdbcTarefaDao dao = new JdbcTarefaDao();
 		model.addAttribute("tarefa", dao.buscaPorId(id));
 		
-		return "tarefa/mostra";
-	}
-	
-	@RequestMapping("alteraTarefa")
-	public String altera(Tarefa tarefa) {
-		
-		JdbcTarefaDao dao = new JdbcTarefaDao();
-		dao.altera(tarefa);
-		
-		return "redirect:listaTarefas";
+		return "tarefa/mostraTarefa";
 	}
 	
 }

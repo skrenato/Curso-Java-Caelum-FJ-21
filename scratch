@@ -115,3 +115,12 @@ Exercicio 11.12 - Validando Tarefas
 - usando taglib do spring + form:erros.
 - trazendo a descrição do erro baseado na annotattion da classe tarefa
 - validando os campos; tratamento de erros.
+
+Exercicio 11.14 - Listando Tarefas
+- usando Model como parâmetro
+- usando o <a href> para chamar um metódo do DispatcherServlet
+
+Exercicio 11.16 - Alterando e Removendo tarefas
+- Alterando e exibindo os dados da tarefa
+- Removendo uma tarefa
+- Alterações na listagem

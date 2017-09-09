@@ -1,4 +1,4 @@
 #Tomcat publish data
-#Sat Sep 09 09:38:15 BRT 2017
+#Sat Sep 09 10:46:02 BRT 2017
 org.eclipse.jst.jee.server\:fj21-tarefas=/home/web6934/java/21/apache-tomcat-7.0.47/wtpwebapps/fj21-tarefas
 org.eclipse.jst.jee.server\:/binary\:/home/web6934/java/workspace/fj21-tarefas/WebContent/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar=/home/web6934/java/21/apache-tomcat-7.0.47/wtpwebapps/fj21-tarefas/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar
