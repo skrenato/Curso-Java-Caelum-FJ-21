@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import javax.sql.DataSource;
+import javax.activation.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -22,9 +22,9 @@ public class JdbcTarefaDao {
 	private final Connection connection;
 	
 	@Autowired
-	public JdbcTarefaDao(DataSource dataSource) {
+	public JdbcTarefaDao(DataSource datasource) {
 		try {
-			this.connection = dataSource.getConnection();
+			this.connection = new ConnectionFactory().getConnection();
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		}

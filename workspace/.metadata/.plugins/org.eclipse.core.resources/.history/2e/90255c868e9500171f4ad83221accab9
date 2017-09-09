@@ -2,7 +2,6 @@ package br.com.caelum.tarefas.controller;
 
 import javax.validation.Valid;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -17,7 +16,6 @@ public class TarefasController {
 	
 	private final JdbcTarefaDao dao;
 	
-	@Autowired
 	public TarefasController(JdbcTarefaDao dao) {
 		// TODO Auto-generated constructor stub
 		this.dao = dao;
