@@ -142,3 +142,5 @@ Exercicio 13.5 - Inversão de Controle com o Spring Container
 - usando o XML para configurar o dataSource
 - Ajustando as classes JdbcTarefasDao e TarefasController para comportar a nova configuração
 
+Último commit, pra finalizar.
+
